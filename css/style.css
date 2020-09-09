@@ -8,3 +8,153 @@
     font-weight: 400;
     border: 0;
 }
+header {
+    background-image: url("../images/bgheader.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+
+
+.about_us{
+    margin-bottom: 160px;
+    padding-top: 78px;
+}
+section.about_us div.container{
+    max-width: 769px;
+    margin: auto;
+}
+section.about_us h3{
+    font:13px "Open Sans";
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    color: #d4af37;
+    margin-bottom: 22px;
+}
+section.about_us h2{
+    font:44px "Open Sans";
+    font-weight: 600;
+    text-align: center;
+    text-transform: capitalize;
+    color: #4d5c66;
+    margin-bottom: 57px;
+}
+
+section.about_us p{
+    font:18px "Open Sans";
+    font-weight: 300;
+    text-align: center;
+    color: #021725;
+    margin-bottom: 43px;
+    line-height: 35px;
+}
+section.about_us a{
+    color: #021725;
+    font:14px "Open Sans";
+    font-weight: 300;
+    text-align: center;
+    line-height: 55px;
+    border: solid 1px black;
+    display: block;
+    margin: auto;
+    text-decoration: none;
+    text-transform: capitalize;
+    width: 237px;
+    margin-bottom: 163px;
+}
+section.what_we_do h3{
+    font:13px "Open Sans";
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    color: #d4af37;
+    margin-bottom: 24px;
+}
+section.what_we_do h2{
+    font:44px "Open Sans";
+    font-weight: 600;
+    text-align: center;
+    text-transform: capitalize;
+    color: #4d5c66;
+    margin-bottom: 92px;
+}
+section.what_we_do div.container{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+}
+section.what_we_do img{
+    display: block;
+    width: 25%;
+}
+header div.container{
+
+}
+ h1{
+     font:80px "Open Sans";
+     font-weight: 300;
+     font-style: italic;
+     text-align: center;
+     color: white;
+     padding-top: 306px;
+}
+ header div.container{
+     padding-left: 48px;
+     padding-top: 16px;
+     margin-right: 15px;
+     height: 42px;
+ }
+header div.container span.logo{
+    font:24px "Open Sans";
+    font-weight: 600;
+    color: white;
+    text-transform: uppercase;
+    line-height: 44px;
+    position: absolute;
+    margin-left: 15px;
+}
+div.menu{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 48px;
+    height: 14px;
+    align-items: center;
+}
+div.menu span.burger{
+    position: relative;
+    width: 18px;
+    height: 3px;
+    display: inline-block;
+    background-color: white;
+    margin-bottom: 8px;
+
+}
+div span.burger:after{
+    content: "";
+    position: absolute;
+    width: 18px;
+    height: 3px;
+    display: block;
+    background-color: white;
+    top: -5px;
+    left: 0;
+
+}
+div span.burger:before{
+    content: "";
+    position: absolute;
+    width: 18px;
+    height: 3px;
+    display: block;
+    background-color: white;
+    top: 5px;
+    left: 0;
+}
+p.menu{
+    font:24px "Open Sans";
+    font-weight: 600;
+    color: white;
+    text-transform: uppercase;
+    line-height: 44px;
+}
+
