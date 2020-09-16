@@ -8,13 +8,83 @@
     font-weight: 400;
     border: 0;
 }
-header {
+img{
+    width: 100%;
+}
+
+header.index {
     background-image: url("../images/bgheader.jpg");
     background-size: cover;
     height: 100vh;
+
+}
+header div.container{
+    padding-left: 48px;
+    padding-top: 16px;
+    margin-right: 15px;
+    height: 42px;
+    display: flex;
+    justify-content: space-between;
+}
+
+h1{
+    font:80px "Open Sans";
+    font-weight: 300;
+    text-align: center;
+    color: white;
+    margin-top: 22%;
+    line-height: 80px;
+}
+header span.text__italic{
+    line-height: 80px;
+    color: white;
+    font:80px "Open Sans";
+    font-weight: 300;
+    font-style: italic;
 }
 
 
+div.menu{
+    margin-right: 48px;
+    height: 14px;
+    align-items: center;
+}
+div.container span.burger{
+    width: 18px;
+    height: 3px;
+    display: inline-block;
+    background-color: white;
+    margin-bottom: 8px;
+    position: relative;
+}
+div span.burger:after{
+    content: "";
+    position: absolute;
+    width: 18px;
+    height: 3px;
+    display: block;
+    background-color: white;
+    top: -7px;
+    left: 0;
+
+}
+div span.burger:before{
+    content: "";
+    position: absolute;
+    width: 18px;
+    height: 3px;
+    display: block;
+    background-color: white;
+    top: 7px;
+    left: 0;
+}
+p.menu{
+    font:24px "Open Sans";
+    font-weight: 600;
+    color: white;
+    text-transform: uppercase;
+    line-height: 44px;
+}
 .about_us{
     margin-bottom: 160px;
     padding-top: 78px;
@@ -82,79 +152,362 @@ section.what_we_do div.container{
     display: flex;
     flex-wrap: wrap;
     max-width: 100%;
+    margin-bottom: 162px;
 }
 section.what_we_do img{
     display: block;
     width: 25%;
+    border: solid 1px white;
 }
-header div.container{
+section.who_we_are img{
+    height: 192px;
+    width: 244px;
+    overflow: hidden;
+}
 
+section.who_we_are div.container{
+    max-width: 756px;
+    margin: auto;
 }
- h1{
-     font:80px "Open Sans";
-     font-weight: 300;
-     font-style: italic;
-     text-align: center;
-     color: white;
-     padding-top: 306px;
-}
- header div.container{
-     padding-left: 48px;
-     padding-top: 16px;
-     margin-right: 15px;
-     height: 42px;
- }
-header div.container span.logo{
-    font:24px "Open Sans";
+section.who_we_are div.container h3{
+    font:13px "Open Sans";
     font-weight: 600;
-    color: white;
+    text-align: center;
     text-transform: uppercase;
-    line-height: 44px;
-    position: absolute;
-    margin-left: 15px;
+    color: #d4af37;
+    margin-bottom: 22px;
 }
-div.menu{
+section.who_we_are div.container h2{
+    font:44px "Open Sans";
+    font-weight: 600;
+    text-align: center;
+    text-transform: capitalize;
+    color: #4d5c66;
+    margin-bottom: 57px;
+}
+section.who_we_are div.container p{
+    font:18px "Open Sans";
+    font-weight: 300;
+    text-align: center;
+    color: #021725;
+    margin-bottom: 43px;
+    line-height: 35px;
+}
+
+section.who_we_are div.ceo{
+    background-color: #f9f9f9;
+    width: 246px;
+    margin-right: 5px;
+}
+section.who_we_are div.ceo h3{
+    font:13px "Open Sans";
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #d4af37;
+    margin-bottom: 20px;
+}
+section.who_we_are div.ceo span{
+    font:21px "Open Sans";
+    font-weight: 600;
+    text-align: center;
+    text-transform: capitalize;
+    color: #71777c;
+}
+section.who_we_are div.ceo p{
+    font:13px "Open Sans";
+    font-weight: 400;
+    color: #021725;
+    line-height: 20px;
+    margin-top: 35px;
+}
+section.who_we_are div.container_text{
     display: flex;
-    justify-content: flex-end;
-    margin-right: 48px;
-    height: 14px;
-    align-items: center;
+    justify-content: space-between;
+    max-width: 746px;
+    margin: auto;
+    margin-bottom: 163px;
 }
-div.menu span.burger{
-    position: relative;
-    width: 18px;
-    height: 3px;
-    display: inline-block;
-    background-color: white;
-    margin-bottom: 8px;
-
+section.who_we_are div.designer{
+    background-color: #f9f9f9;
+    width: 246px;
+    margin-right: 5px;
 }
-div span.burger:after{
-    content: "";
-    position: absolute;
-    width: 18px;
-    height: 3px;
-    display: block;
-    background-color: white;
-    top: -5px;
-    left: 0;
-
-}
-div span.burger:before{
-    content: "";
-    position: absolute;
-    width: 18px;
-    height: 3px;
-    display: block;
-    background-color: white;
-    top: 5px;
-    left: 0;
-}
-p.menu{
-    font:24px "Open Sans";
+section.who_we_are div.designer h3{
+    font:13px "Open Sans";
     font-weight: 600;
-    color: white;
     text-transform: uppercase;
-    line-height: 44px;
+    color: #d4af37;
+    margin-bottom: 20px;
 }
+section.who_we_are div.designer span{
+    font:21px "Open Sans";
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #71777c;
+}
+section.who_we_are div.designer p{
+    font:13px "Open Sans";
+    font-weight: 400;
+    color: #021725;
+    line-height: 20px;
+    margin-top: 35px;
+}
+section.who_we_are div.developer{
+    background-color: #f9f9f9;
+    width: 246px;
+    margin-right: 5px;
+}
+section.who_we_are div.text{
+    padding: 20px 20px 47px 14px;
+}
+section.who_we_are div.developer h3{
+    font:13px "Open Sans";
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #d4af37;
+    margin-bottom: 20px;
+}
+section.who_we_are div.developer span{
+    font:21px "Open Sans";
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #71777c;
+}
+section.who_we_are div.developer p{
+    margin-top: 35px;
+    font:13px "Open Sans";
+    font-weight: 400;
+    color: #021725;
+    line-height: 20px;
+}
+section.who_we_are.div.text{
+    margin: 20px 20px;
+}
+section.blog_index{
+    max-width: 769px;
+    margin: auto;
+}
+section.blog_index h3{
+    font:13px "Open Sans";
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    color: #d4af37;
+    margin-bottom: 17px;
+}
+section.blog_index h2{
+    font:44px "Open Sans";
+    font-weight: 600;
+    text-align: center;
+    text-transform: capitalize;
+    color: #4d5c66;
+    margin-bottom: 52px;
+}
+section.blog_index div.container{
+    display: flex;
+    justify-content: space-between;
+    background-color: #f9f9f9;
+    max-width: 769px;
+    margin-bottom: 84px;
+    height: 390px;
+}
+section.blog_index div.container_img{
+    height:390px;
+    width: 384px;
+    overflow: hidden;
+}
+section.blog_index div.container_text{
+    padding: 43px 38px 61px 39px;
+
+}
+section.blog_index p{
+    font:13px "Open Sans";
+    font-weight: 400;
+    color: #505d68;
+    text-transform: uppercase;
+    margin-bottom: 21px;
+}
+section.blog_index div.container_text h2{
+    font:30px "Open Sans";
+    font-weight: 400;
+    color: #505d68;
+    text-transform: capitalize;
+    text-align: left;
+    margin-bottom: 29px;
+}
+section.blog_index span{
+    font:16px "Open Sans";
+    font-weight: 300;
+    color: #505d68;
+    line-height: 23px;
+}
+section.blog_index div.container_text a.btn{
+    margin-top: 59px;
+    display: block;
+    border: solid 1px black;
+    width: 128px;
+    height: 46px;
+    font:14px "Open Sans";
+    font-weight: 300;
+    color: #021725;
+    line-height: 45px;
+    text-align: center;
+}
+section.blog_index a.btn{
+    display: block;
+    border: solid 1px black;
+    width: 237px;
+    height: 55px;
+    font:14px "Open Sans";
+    font-weight: 300;
+    color: #021725;
+    line-height: 55px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 160px;
+}
+section.contact_us{
+    max-width: 768px;
+    margin: auto;
+}
+section.contact_us h3{
+font:13px "Open Sans";
+font-weight: 600;
+text-align: center;
+text-transform: uppercase;
+color: #d4af37;
+margin-bottom: 22px;
+}
+section.contact_us h2{
+    font:44px "Open Sans";
+    font-weight: 600;
+    text-align: center;
+    text-transform: capitalize;
+    color: #4d5c66;
+    margin-bottom: 57px;
+}
+section.contact_us div.container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -5px;
+    margin-bottom: 80px;
+}
+section.contact_us div.text{
+    padding: 50px 15px 42px;
+    background-color:#f9f9f9;
+    width: 100%;
+}
+
+section.contact_us div.container h2{
+    font:19px "Open Sans";
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    color: #4d5c66;
+    margin-bottom: 50px;
+    line-height: 19px;
+}
+section.contact_us div.container p.text_1{
+    font:17px "Open Sans";
+    font-weight: 300;
+    text-align: center;
+    text-transform: uppercase;
+    color: #4d5c66;
+    margin-bottom: 95px;
+    line-height: 30px;
+}
+section.contact_us div.container p.text_2{
+    font:19px "Open Sans";
+    font-weight: 300;
+    text-align: center;
+    text-transform: uppercase;
+    color: #4d5c66;
+    line-height: 30px;
+}
+footer{
+    width: 100%;
+    background-color: #eeeeee;
+    padding: 50px 15px;
+    margin-bottom: -20px;
+}
+footer div.container{
+    display: flex;
+    justify-content: space-between;
+}
+footer div.text{
+    margin: auto;
+}
+footer div.container p{
+    font:16px "Open Sans";
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #4d5c66;
+    line-height: 30px;
+}
+header.blog{
+    background-image: url("../images/blogbg.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+section.blog__post{
+    max-width: 1140px;
+    background-color: #f9f9f9;
+    margin: auto;
+    padding: 65px 68px 66px;
+}
+div.blog__container__post{
+    max-width: 666px;
+    background-color: #ffffff;
+    padding: 32px 35px 32px;
+}
+div.blog__container__image{
+    height: 400px;
+    width: 600px;
+    overflow: hidden;
+    margin-bottom: 34px;
+}
+
+div.blog__container__title h2{
+    font:30px "Open Sans";
+    font-weight: 300;
+    text-transform: capitalize;
+    color: black;
+    line-height: 30px;
+    letter-spacing: 3px;
+    margin-bottom: 29px;
+}
+
+div.blog__container__subtitle{
+    font:15px "Open Sans";
+    font-weight: 300;
+    text-transform: capitalize;
+    color: #d3b000;
+    line-height: 15px;
+    letter-spacing: 1px;
+    margin-bottom: 37px;
+}
+div.blog__container__text{
+    font:16px "Open Sans";
+    font-weight: 300;
+    text-transform: capitalize;
+    color: #021725;
+    line-height: 20px;
+    margin-bottom: 67px;
+}
+div.blog__container__btn{
+    font:16px "Open Sans";
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #021725;
+    line-height: 16px;
+    margin-bottom: 31px;
+    border: solid 1px #021725;
+    padding:20px 55px 17px ;
+    max-width: 189px;
+}
+
+
+
+
+
 
