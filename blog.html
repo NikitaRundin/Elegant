@@ -9,12 +9,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;1,300&display=swap"
           rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media-queries.css">
 </head>
 <body>
-<header class="blog">
-    <div class="container"><a href="#"><img class="index" src="images/logo.png" alt=""></a>
-    <p class="menu">menu<span class="burger"></span></p></div>
-</header>
+<div class="blog_header_bg">
+    <header class="blog">
+        <div class="container__header__flex">
+            <div class="container__logo"><a href="#"><img class="index" src="images/logo.png" alt=""></a></div>
+            <div class="container__burger"><a href="#"><span class="burger"></span></a></div></div>
+    </header></div>
 <section class="blog">
     <div class="blog__container__flex">
         <div class="blog__container__post__body1">
@@ -38,12 +41,25 @@
         <div class="blog__container__btn"><a href="#">Read More</a></div>
                 </div></div></div>
     <div class="blog__container__sidebar">
-        <div class="sidebar__title"><h3>Recent Posts</h3></div>
-        <div class="sidebar__text"><p>This is the Title of Your Post<br>This is the Title of Your Post<br>This is the Title of Your Post<br>This is the Title of Your Post<br></p>
+        <div class="sidebar__text">
+            <h3>Recent posts</h3>
+            <ul>
+                <a href="#"><li>This is the Title of Your Post</li></a>
+                <a href="#"><li>This is the Title of Your Post</li></a>
+                <a href="#"><li>This is the Title of Your Post</li></a>
+                <a href="#"><li>This is the Title of Your Post</li></a>
+            </ul>
         </div>
-        <div class="sidebar__title"><h3>Categories</h3></div>
-        <div class="sidebar__text"><p>Art<br>Business<br>Design<br>Code</p></div>
-        <div class="sidebar__title"><h3>Projects</h3></div>
+        <div class="sidebar__text">
+        <h3>Categories</h3>
+        <ul>
+            <a href="#"><li>Art</li></a>
+            <a href="#"><li>Business</li></a>
+            <a href="#"><li>Design</li></a>
+            <a href="#"><li>Code</li></a>
+        </ul>
+    </div>
+        <div class="sidebar__text"><h3>Projects</h3></div>
         <div class="sidebar__img"><img  src="./images/sectionimage2.jpg" alt=""/></div>
         <div class="sidebar__img"><img src="./images/sectionimage3.jpg" alt=""/></div>
         <div class="sidebar__img"><img src="./images/sectionimage4.jpg" alt=""/></div>

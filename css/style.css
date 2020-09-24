@@ -7,37 +7,53 @@
     font-family:  'Open Sans', sans-serif ;
     font-weight: 400;
     border: 0;
+    list-style: none;
 
 }
-/*img{*/
-/*    width: 100%;*/
-/*}*/
 a{
     color:inherit;
 }
+img{
+    width: 100%;
+}
 
-header.index {
+.header_bg {
     background-image: url("../images/bgheader.jpg");
     background-size: cover;
+    background-repeat: no-repeat;
     height: 100vh;
-
+    margin-bottom: 163px;
+    width: 100%;
+    object-fit: contain;
+    background-position: center;
+    position: relative;
 }
-header div.container{
-    padding-left: 48px;
-    padding-top: 16px;
-    margin-right: 15px;
-    height: 42px;
+div.about__circle__index{
+    display: none;
+}
+
+div .container__header__flex{
     display: flex;
     justify-content: space-between;
 }
+div.container__burger {
+    max-width: 18px;
+    margin: 30px 48px 0 0;
+}
+div.container__logo{
+    max-width: 193px;
+    margin: 16px 0 0 48px;
+    height: 40px;
+}
 
-h1{
+
+header.index h1{
     font:80px "Open Sans";
     font-weight: 300;
     text-align: center;
     color: white;
-    margin-top: 22%;
     line-height: 80px;
+    margin-top: 19%;
 }
 header span.text__italic{
     line-height: 80px;
@@ -46,22 +62,14 @@ header span.text__italic{
     font-weight: 300;
     font-style: italic;
 }
-
-
-div.menu{
-    margin-right: 48px;
-    height: 14px;
-    align-items: center;
-}
-div.container span.burger{
+div.container__burger span{
     width: 18px;
     height: 3px;
     display: inline-block;
     background-color: white;
-    margin-bottom: 8px;
     position: relative;
 }
-div span.burger:after{
+div.container__burger span:after{
     content: "";
     position: absolute;
     width: 18px;
@@ -72,7 +80,7 @@ div span.burger:after{
     left: 0;
 
 }
-div span.burger:before{
+div.container__burger span:before{
     content: "";
     position: absolute;
     width: 18px;
@@ -82,6 +90,7 @@ div span.burger:before{
     top: 7px;
     left: 0;
 }
+
 p.menu{
     font:24px "Open Sans";
     font-weight: 600;
@@ -258,7 +267,7 @@ section.who_we_are div.designer p{
 }
 section.who_we_are div.developer{
     background-color: #f9f9f9;
-    width: 246px;
+    max-width: 246px;
     margin-right: 5px;
 }
 section.who_we_are div.text{
@@ -313,12 +322,13 @@ section.blog_index div.container{
     background-color: #f9f9f9;
     max-width: 769px;
     margin-bottom: 84px;
-    height: 390px;
 }
-section.blog_index div.container_img{
-    height:390px;
-    width: 384px;
-    overflow: hidden;
+div.container_img img{
+    width: 100%;
+}
+div.contact__us__map{
+    height: 297px;
+    max-width: 769px;
 }
 section.blog_index div.container_text{
     padding: 43px 38px 61px 39px;
@@ -421,12 +431,12 @@ section.contact_us div.container p.text_1{
     line-height: 30px;
 }
 section.contact_us div.container p.text_2{
-    font:19px "Open Sans";
+    font:17px "Open Sans";
     font-weight: 300;
-    text-align: center;
     text-transform: uppercase;
     color: #4d5c66;
     line-height: 30px;
+    text-align: center;
 }
 footer{
     width: 100%;
@@ -448,12 +458,12 @@ footer div.container p{
     color: #4d5c66;
     line-height: 16px;
 }
-header.blog{
+div.blog_header_bg{
     background-image: url("../images/blogbg.jpg");
-    background-size: cover;
-    height: 100vh;
     margin-bottom: 78px;
-    width: 100%;
+    height: 399px;
+    background-size: cover;
+    background-position: center;
 }
 
 div.blog__container__post{
@@ -465,7 +475,6 @@ div.blog__container__post{
 }
 div.blog__container__image{
     width: 100%;
-    overflow: hidden;
     margin-bottom: 34px;
 }
 
@@ -522,7 +531,7 @@ div.blog__container__sidebar{
 div.blog__container__post__body1{
     margin-bottom: 56px;
 }
-div.sidebar__title{
+div.sidebar__text h3{
     font:23px "Open Sans";
     font-weight: 300;
     text-transform: capitalize;
@@ -533,7 +542,11 @@ div.sidebar__title{
     margin-bottom: 38px;
     border-bottom: solid 3px #d3b000;
 }
+
 div.sidebar__text{
+    margin-bottom: 50px;
+}
+div.sidebar__text li{
     font:16px "Open Sans";
     font-weight: 300;
     text-transform: capitalize;
@@ -541,7 +554,7 @@ div.sidebar__text{
     line-height: 16px;
     letter-spacing: 1px;
     font-style: italic;
-    margin-bottom: 59px;
+    margin-bottom: 8px;
 }
 div.blog__btn{
     font:16px "Open Sans";
@@ -554,14 +567,10 @@ div.blog__btn{
     max-width: 239px;
     margin: auto;
 }
-img.index{
-   width: 100%;
-    height: 40px;
-}
-header.contact_us{
+div.contact_us_header_bg{
     background-image: url("../images/contactusheaderbg.jpg");
     background-size: cover;
-    height: 100vh;
+    height: 400px;
     margin-bottom: 127px;
     width: 100%;
 }
@@ -587,7 +596,7 @@ div.contact__us__title {
 div.contact__us__container__block1{
     background-color: #d3b000;
     padding: 35px 85px 163px 32px;
-    width: 35%;
+    width:  300px;
     margin-right: 6px;
     color: white;
     font: 25px "Open Sans";
@@ -595,8 +604,10 @@ div.contact__us__container__block1{
     line-height: 25px;
 }
 div.contact__us__container__img {
-    width: 65%;
+    max-width: 456px;
     margin-bottom: -5px;
+    overflow: hidden;
+    height: 300px;
 }
 div.contact__us__container{
     width: 100%;
@@ -613,7 +624,7 @@ div.contact__us__container__block1 p:before{
 div.contact__us__container__text{
     padding: 44px 63px 40px 46px;
     background-color: #f9f9f9;
-    width: 65%;
+    max-width: 463px;
     color: #323d43;
     font: 20px "Open Sans";
     font-weight: 300;
@@ -623,7 +634,7 @@ div.contact__us__container__text{
 div.contact__us__container__block2{
     background-color: #212121;
     padding: 32px 30px 163px 32px;
-    width: 31%;
+    width:  300px;
     margin-right: 6px;
     color: white;
     font: 25px "Open Sans";
@@ -651,30 +662,38 @@ max-width: 236px;
 margin: auto;
     margin-bottom: 87px;
 }
-header.nora{
+div.project_header_bg{
     background-image: url("../images/norabg.jpg");
     background-size: cover;
+    background-repeat: no-repeat;
     height: 100vh;
-    margin-bottom: 84px;
+    margin-bottom: 86px;
     width: 100%;
+    object-fit: contain;
+    background-position: center;
+    position: relative;
 }
-section.nora{
-    max-width: 1150px;
+section.project{
+
     margin: auto;
 }
-div.nora__container{
+div.project__container{
     background-color: #f9f9f9;
     padding:0 68px 63px 65px ;
+    max-width: 1150px;
+    margin: auto;
     margin-bottom: 102px;
 }
-div.nora__container__flex{
+div.project__container__flex{
     display: flex;
     width: 100%;
 }
-div.nora__container__text{
-    width: 70%;
+div.project__container__text{
+    width:100%;
+    max-width: 664px;
+    margin-right: 52px;
 }
-div.nora__container__text h1{
+div.project__container__text h1{
     font:44px "Open Sans";
     font-weight: 600;
     text-transform: capitalize;
@@ -684,10 +703,10 @@ div.nora__container__text h1{
     margin-top:85px;
     text-align: left;
 }
-div.nora__container__sidebar{
-    width: 30%;
+div.project__container__sidebar{
+    max-width: 300px;
 }
-div.nora__container__text p {
+div.project__container__text p {
     font: 20px "Open Sans";
     font-weight: 400;
     color: black;
@@ -695,20 +714,20 @@ div.nora__container__text p {
     margin-right: 50px;
     margin-bottom: 136px;
 }
-div.nora__container__img{
-    width: 70%;
+div.project__container__img{
+    width: 100%;
 }
-div.nora__container__sidebar img:first-of-type{
+div.project__container__sidebar img:first-of-type{
     margin-top: 62px;
 }
-div.nora__container__img img{
+div.project__container__img img{
     margin-bottom: 10px;
 }
-div.nora__btn__flex{
+div.project__btn__flex{
     display: flex;
     justify-content: space-between;
 }
-div.nora__btn {
+div.project__btn {
     font: 15px "Open Sans";
     font-weight: 300;
     text-transform: capitalize;
@@ -720,12 +739,16 @@ div.nora__btn {
     margin: auto;
     margin-bottom:72px;
 }
-header.work{
+div.work_header_bg{
     background-image: url("../images/workbg.jpg");
     background-size: cover;
-    height: 100vh;
-    margin-bottom: 126px;
+    background-repeat: no-repeat;
+    height: 400px;
+    margin-bottom: 130px;
     width: 100%;
+    object-fit: contain;
+    background-position: center;
+    position: relative;
 }
 div.work__subtitle{
     font: 13px "Open Sans";
@@ -734,21 +757,26 @@ div.work__subtitle{
     color: #d4af37;
     line-height: 13px;
     text-align: center;
+    margin-bottom: 23px;
 
 }
-div.work__title h1{
+div.work__title h2{
     font: 44px "Open Sans";
     font-weight: 600;
     text-transform: uppercase;
     color: #021725;
     line-height: 44px;
     margin-bottom: 55px;
+    text-align: center;
 }
+
 div.work__container{
-    max-width: 767px;
+    max-width: 769px;
     margin:auto;
 }
 div.work__text{
+    max-width: 769px;
+    margin:auto;
     font: 18px "Open Sans";
     font-weight: 300;
     text-transform: uppercase;
@@ -767,5 +795,118 @@ div.flex__container__img img{
     width: 25%;
     border: solid 1px white;
 }
+div.about_header_bg {
+    background-image: url("../images/aboutbg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin-bottom: 163px;
+    width: 100%;
+    object-fit: contain;
+    background-position: center;
+    position: relative;
+}
 
+div.about__text__container{
+    max-width: 769px;
+    margin: auto;
+    font: 18px "Open Sans";
+    font-weight: 300;
+    color: #021725;
+    line-height: 18px;
+    margin-bottom: 153px;
 
+}
+div.about__flex__container{
+    display: flex;
+    width: 100%;
+    background-color: #f9f9f9;
+}
+div.about__flex__text{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: auto;
+    width: 50%;
+    padding: 48px 74px 46px 44px;
+}
+
+div.about__text2{
+    font: 18px "Open Sans";
+    font-weight: 400;
+    color: #505d68;
+    line-height: 22px;
+    width: 250px;
+}
+div.about__text1 :before{
+    content: 'Services';
+    display: block;
+    font: 44px "Open Sans";
+    font-weight: 600;
+    color: #505d68;
+    line-height: 44px;
+    margin-bottom: 90px;
+}
+div.about__text1 {
+    font: 18px "Open Sans";
+    font-weight: 300;
+    color: #505d68;
+    line-height: 25px;
+    width: 238px;
+}
+div.about__text2 li:before{
+    content: '-';
+    display: inline-block;
+    margin-right: 10px;
+}
+div.about__flex__img{
+    width: 50% ;
+    margin-bottom: -4px;
+
+}
+div.about__arrow{
+    width: 12px;
+    height: 12px;
+    border-top: solid 2px white;
+    border-right: solid 2px white;
+    transform: rotate(135deg);
+    margin: auto;
+}
+div.about__circle{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: solid 2px white;
+    position: absolute;
+    padding: 5px;
+    bottom: 4%;
+    right: 50%;
+}
+div.about__circle__index{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: solid 2px white;
+    position: absolute;
+    padding: 5px;
+    bottom: 30%;
+    right: 50%
+}
+div.project__arrow{
+    width: 12px;
+    height: 12px;
+    border-top: solid 2px white;
+    border-right: solid 2px white;
+    transform: rotate(135deg);
+    margin: auto;
+}
+div.project__circle{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: solid 2px white;
+    position: absolute;
+    padding: 5px;
+    bottom: 4%;
+    right: 50%;
+}
