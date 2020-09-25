@@ -180,15 +180,15 @@ header.contact_us{
     div.contact__us__container__img{
         margin: auto;
     }
-    div.contact__us__btn{
-        padding: 0;
-        width: 140px;
-        margin: auto;
-        height: 30px;
-        text-align: center;
-        line-height: 30px;
-        margin-bottom: 40px;
-    }
+    /*div.contact__us__btn{*/
+    /*    padding: 0;*/
+    /*    width: 140px;*/
+    /*    margin: auto;*/
+    /*    height: 30px;*/
+    /*    text-align: center;*/
+    /*    line-height: 30px;*/
+    /*    margin-bottom: 40px;*/
+    /*}*/
     div.project__btn{
        display: none;
     }
@@ -304,6 +304,15 @@ margin-bottom: 40px;
     }
     div.work__subtitle{
         margin-bottom: 18px;
+    }
+    div.about_header_bg{
+        margin-bottom: 20px;
+    }
+    div.about__text__container{
+        margin-bottom: 20px;
+    }
+    div.about__text1 :before{
+        margin-bottom: 20px;
     }
 }
 @media only screen and (max-width: 420px) {
