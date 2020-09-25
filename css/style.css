@@ -47,7 +47,7 @@ div.container__logo{
 }
 
 
-header.index h1{
+div.header_bg h1{
     font:80px "Open Sans";
     font-weight: 300;
     text-align: center;
@@ -55,7 +55,7 @@ header.index h1{
     line-height: 80px;
     margin-top: 19%;
 }
-header span.text__italic{
+div.header_bg span.text__italic{
     line-height: 80px;
     color: white;
     font:80px "Open Sans";
@@ -106,7 +106,7 @@ section.about_us div.container{
     max-width: 769px;
     margin: auto;
 }
-section.about_us h3{
+section.about_us h4{
     font:13px "Open Sans";
     font-weight: 600;
     text-align: center;
@@ -114,7 +114,7 @@ section.about_us h3{
     color: #d4af37;
     margin-bottom: 22px;
 }
-section.about_us h2{
+section.about_us h3{
     font:44px "Open Sans";
     font-weight: 600;
     text-align: center;
@@ -145,7 +145,7 @@ section.about_us a{
     width: 237px;
     margin-bottom: 163px;
 }
-section.what_we_do h3{
+section.what_we_do h4{
     font:13px "Open Sans";
     font-weight: 600;
     text-align: center;
@@ -153,7 +153,7 @@ section.what_we_do h3{
     color: #d4af37;
     margin-bottom: 24px;
 }
-section.what_we_do h2{
+section.what_we_do h3{
     font:44px "Open Sans";
     font-weight: 600;
     text-align: center;
@@ -182,7 +182,7 @@ section.who_we_are div.container{
     max-width: 756px;
     margin: auto;
 }
-section.who_we_are div.container h3{
+section.who_we_are div.container h4{
     font:13px "Open Sans";
     font-weight: 600;
     text-align: center;
@@ -190,7 +190,7 @@ section.who_we_are div.container h3{
     color: #d4af37;
     margin-bottom: 22px;
 }
-section.who_we_are div.container h2{
+section.who_we_are div.container h3{
     font:44px "Open Sans";
     font-weight: 600;
     text-align: center;
@@ -212,7 +212,7 @@ section.who_we_are div.ceo{
     width: 246px;
     margin-right: 5px;
 }
-section.who_we_are div.ceo h3{
+section.who_we_are div.ceo h4{
     font:13px "Open Sans";
     font-weight: 600;
     text-transform: uppercase;
@@ -245,7 +245,7 @@ section.who_we_are div.designer{
     width: 246px;
     margin-right: 5px;
 }
-section.who_we_are div.designer h3{
+section.who_we_are div.designer h4{
     font:13px "Open Sans";
     font-weight: 600;
     text-transform: uppercase;
@@ -273,7 +273,7 @@ section.who_we_are div.developer{
 section.who_we_are div.text{
     padding: 20px 20px 47px 14px;
 }
-section.who_we_are div.developer h3{
+section.who_we_are div.developer h4{
     font:13px "Open Sans";
     font-weight: 600;
     text-transform: uppercase;
@@ -300,7 +300,7 @@ section.blog_index{
     max-width: 769px;
     margin: auto;
 }
-section.blog_index h3{
+section.blog_index h4{
     font:13px "Open Sans";
     font-weight: 600;
     text-align: center;
@@ -308,7 +308,7 @@ section.blog_index h3{
     color: #d4af37;
     margin-bottom: 17px;
 }
-section.blog_index h2{
+section.blog_index h3{
     font:44px "Open Sans";
     font-weight: 600;
     text-align: center;
@@ -341,7 +341,7 @@ section.blog_index p{
     text-transform: uppercase;
     margin-bottom: 21px;
 }
-section.blog_index div.container_text h2{
+section.blog_index div.container_text h3{
     font:30px "Open Sans";
     font-weight: 400;
     color: #505d68;
@@ -384,7 +384,7 @@ section.contact_us{
     max-width: 768px;
     margin: auto;
 }
-section.contact_us h3{
+section.contact_us h4{
 font:13px "Open Sans";
 font-weight: 600;
 text-align: center;
@@ -392,7 +392,7 @@ text-transform: uppercase;
 color: #d4af37;
 margin-bottom: 22px;
 }
-section.contact_us h2{
+section.contact_us h3{
     font:44px "Open Sans";
     font-weight: 600;
     text-align: center;
@@ -412,7 +412,7 @@ section.contact_us div.text{
     width: 100%;
 }
 
-section.contact_us div.container h2{
+section.contact_us div.container h3{
     font:19px "Open Sans";
     font-weight: 600;
     text-align: center;
@@ -889,7 +889,7 @@ div.about__circle__index{
     border: solid 2px white;
     position: absolute;
     padding: 5px;
-    bottom: 30%;
+    bottom: 20%;
     right: 50%
 }
 div.project__arrow{

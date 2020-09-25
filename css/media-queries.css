@@ -47,13 +47,13 @@
         margin: 0 15px;
     }
     section.blog_index a.btn{
-        margin-bottom: 40px;
+        margin-bottom: 20px;
     }
     section.contact_us div.container p.text_1{
-        margin-bottom: 30px;
+        margin-bottom: 15px;
     }
-    section.contact_us div.container h2{
-        margin-bottom: 25px;
+    section.contact_us div.container h3{
+        margin-bottom: 15px;
     }
   div.blog__container__flex{
       padding: 0;
@@ -69,7 +69,7 @@
     }
     div.about__text__container{
         padding: 0 15px 0 ;
-        margin-bottom: 80px;
+        margin-bottom: 40px;
     }
     div.about__text1 :before{
         margin-bottom: 45px;
@@ -86,7 +86,7 @@ footer div.text p{
     font-size: 11px;
 }
     div.about_header_bg{
-        margin-bottom: 80px;
+        margin-bottom: 40px;
     }
 div.about__circle__index{
     display: block;
@@ -100,18 +100,18 @@ header.index span.text__italic{
     font-size: 65px;
 }
 section.about_us{
-    margin-bottom: 80px;
+    margin-bottom: 40px;
     padding-top: 40px;
 }
 
     section.about_us a{
-        margin-bottom: 80px;
+        margin-bottom: 40px;
     }
-    section.what_we_do h2{
-        margin-bottom: 50px;
+    section.what_we_do h3{
+        margin-bottom: 25px;
     }
     section.what_we_do div.container{
-        margin-bottom: 80px;
+        margin-bottom: 40px;
     }
     div.blog__container__post{
         width: 100%;
@@ -137,10 +137,15 @@ section.about_us{
         width: 100%;
         top: 0;
     }
+    header.index{
+        position: fixed;
+        width: 100%;
+        top: 0;
+    }
     div.contact_us_header_bg{
         background-image: none;
         height: 0;
-        margin-bottom: 80px;
+        margin-bottom: 40px;
     }
 header.contact_us{
     position: fixed;
@@ -189,7 +194,7 @@ header.contact_us{
         margin: 0 auto;
     }
     div.project__container__text p{
-        margin: 0 0 60px ;
+        margin: 0 0 40px ;
     }
     div.project__container__text{
         width: 100%;
@@ -202,7 +207,7 @@ header.contact_us{
         margin-top: 0;
     }
     div.work_header_bg{
-margin-bottom: 60px;
+margin-bottom: 40px;
     }
     div.work__title h2{
         font-size: 34px;
@@ -210,7 +215,7 @@ margin-bottom: 60px;
         margin-bottom: 25px;
     }
     div.work__text{
-        margin-bottom: 60px;
+        margin-bottom: 40px;
     }
     div.flex__container__img img{
         width: 100%;
@@ -218,7 +223,20 @@ margin-bottom: 60px;
     div.container__header__text {
         display: none;
     }
-
+    section.contact_us div.text {
+        padding: 15px;
+        background-color: #f9f9f9;
+        width: 100%;
+    }
+    section.blog_index div.container {
+        margin-bottom: 40px;
+    }
+    .header_bg {
+        margin-bottom: 40px;
+    }
+    section.who_we_are div.container_text {
+        margin-bottom: 40px;
+    }
 }
 @media only screen and (max-width: 420px) {
 
