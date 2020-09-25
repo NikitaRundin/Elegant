@@ -478,7 +478,7 @@ div.blog__container__image{
     margin-bottom: 34px;
 }
 
-div.blog__container__title h2{
+div.blog__container__title h3{
     font:30px "Open Sans";
     font-weight: 300;
     text-transform: capitalize;
@@ -531,7 +531,7 @@ div.blog__container__sidebar{
 div.blog__container__post__body1{
     margin-bottom: 56px;
 }
-div.sidebar__text h3{
+div.sidebar__text h4{
     font:23px "Open Sans";
     font-weight: 300;
     text-transform: capitalize;
@@ -881,6 +881,7 @@ div.about__circle{
     padding: 5px;
     bottom: 4%;
     right: 50%;
+    z-index: 1;
 }
 div.about__circle__index{
     width: 30px;
@@ -890,7 +891,8 @@ div.about__circle__index{
     position: absolute;
     padding: 5px;
     bottom: 20%;
-    right: 50%
+    right: 50%;
+    z-index: 1;
 }
 div.project__arrow{
     width: 12px;
