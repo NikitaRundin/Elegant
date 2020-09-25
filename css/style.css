@@ -910,3 +910,23 @@ div.project__circle{
     bottom: 4%;
     right: 50%;
 }
+div.container__header__text p{
+    font: 19px "Open Sans";
+    font-weight: 600;
+    color: white;
+    line-height: 19px;
+    text-transform: uppercase;
+    position: absolute;
+    top:4%;
+    right: 72px;
+}
+div.container__header__text p.work__menu{
+    font: 19px "Open Sans";
+    font-weight: 600;
+    color: white;
+    line-height: 19px;
+    text-transform: uppercase;
+    position: absolute;
+    top:8%;
+    right: 72px;
+}
