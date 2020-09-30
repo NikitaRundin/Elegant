@@ -15,3 +15,6 @@ $( function() {
         $( "#dialog" ).dialog( "open" );
     });
 } );
+$( "#dialog" ).dialog({
+    resizable: false
+});
