@@ -1017,6 +1017,7 @@ div.container__header__text p.work__menu{
     line-height: 22px;
     color: #363636;
     text-transform: uppercase;
+    padding: 15px;
 
 }
 .ui-widget{

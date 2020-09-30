@@ -335,7 +335,7 @@ margin-bottom: 40px;
     label br{
         display: none;
     }
-    button{
+    form button{
         padding: 15px 32px;
         margin-bottom: 15px;
 
@@ -343,5 +343,7 @@ margin-bottom: 40px;
     .dialog__container-white p{
         margin-bottom: 15px;
     }
-
+    .ui-dialog .ui-dialog-title{
+        width: 100%;
+    }
 }
