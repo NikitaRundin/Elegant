@@ -8,17 +8,32 @@
     <title>Document</title>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;1,300&display=swap"
           rel="stylesheet">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="https://resources/demos/style.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media-queries.css">
 </head>
 <body>
+<div id="dialog" title="FORGOT YOUR PASSWORD?">
+    <div class="dialog__container-white">
+        <form action="" method="post">
+            <div class="form__input">
+                <label for="first_name">ENTER YOUR<br> EMAIL</label>
+                <input id="first_name" type="text" name="first_name" placeholder=""/>
+            </div>
+
+        <button  type="reset">RESET PASSWORD</button>
+        <div class="container__text"><p>or</p></div>
+        <a class="container__btn" href="#">Log In Using Facebook</a>
+        </form>
+    </div>
+</div>
 <div class="header_bg">
 <header class="index">
     <div class="container__header__flex">
     <div class="container__logo"><a href="#"><img class="index" src="images/logo.png" alt=""></a></div>
         <div class="container__header__text"><p>menu</p></div>
     <div class="container__burger"><a href="#"><span class="burger"></span></a></div>
-
     </div>
 </header>
     <h1>Say <span class="text__italic">Haloa</span> to your Portfolio</h1>
@@ -37,7 +52,7 @@
             parum claram,<br> anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta<br> decima.
             Eodem modo typi, qui nunc, fiant sollemnes in futurum.</p>
 
-        <a href="about.html">Read More About Us
+        <a id="opener">Read More About Us
         </a>
     </div>
 </section>
@@ -142,5 +157,13 @@
         </div>
     </div>
 </footer>
+<script
+        src="https://code.jquery.com/jquery-2.2.4.js"
+        integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
+        crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script src="js/scripts.js"></script>
+<script src="https://kit.fontawesome.com/6d349c719c.js" crossorigin="anonymous"></script>
+
 </body>
 </html>
