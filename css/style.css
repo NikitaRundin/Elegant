@@ -1017,16 +1017,15 @@ form button{
     margin: auto;
     margin-bottom: 29px;
     background-color: #b8b8b8;
+    padding: 22px 15px;
     color: black;
     line-height: 24px;
-    padding: 22px 15px;
     text-transform: uppercase;
-    text-align: center;
 
 }
 .ui-widget button{
     font-size: 24px;
-
+    text-align: center!important;
 }
 .dialog__container-white p{
 color: #363636;
@@ -1194,8 +1193,8 @@ a{
 a:hover{
     color: #222;
 }
-.ui-button{
-    background-image: none;
-    background-color: inherit;
-    display: none;
-}
+/*.ui-button{*/
+/*    background-image: none;*/
+/*    background-color: inherit;*/
+/*    display: none;*/
+/*}*/
