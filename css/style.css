@@ -27,7 +27,7 @@ img{
     width: 100%;
 }
 
-.header_bg {
+.header-bg {
     background-image: url("../images/bgheader.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -38,11 +38,11 @@ img{
     background-position: center;
     position: relative;
 }
-div.about__circle__index{
+div.about__circle-index{
     display: none;
 }
 
-div .container__header__flex{
+div .container-header-flex{
     display: flex;
     justify-content: space-between;
     position: relative;
@@ -58,7 +58,7 @@ div.container__logo{
 }
 
 
-div.header_bg h1{
+div.header-bg h1{
     font:80px "Open Sans";
     font-weight: 300;
     text-align: center;
@@ -66,42 +66,13 @@ div.header_bg h1{
     line-height: 80px;
     margin-top: 19%;
 }
-div.header_bg span.text__italic{
+div.header-bg span.text__italic{
     line-height: 80px;
     color: white;
     font:80px "Open Sans";
     font-weight: 300;
     font-style: italic;
 }
-div.container__burger span{
-    width: 18px;
-    height: 3px;
-    display: inline-block;
-    background-color: white;
-    position: relative;
-}
-div.container__burger span:after{
-    content: "";
-    position: absolute;
-    width: 18px;
-    height: 3px;
-    display: block;
-    background-color: white;
-    top: -7px;
-    left: 0;
-
-}
-div.container__burger span:before{
-    content: "";
-    position: absolute;
-    width: 18px;
-    height: 3px;
-    display: block;
-    background-color: white;
-    top: 7px;
-    left: 0;
-}
-
 p.menu{
     font:24px "Open Sans";
     font-weight: 600;
@@ -109,15 +80,15 @@ p.menu{
     text-transform: uppercase;
     line-height: 44px;
 }
-.about_us{
+.about-us{
     margin-bottom: 160px;
     padding-top: 78px;
 }
-section.about_us div.container{
+section.about-us div.container{
     max-width: 769px;
     margin: auto;
 }
-section.about_us h4{
+section.about-us h4{
     font:13px "Open Sans";
     font-weight: 600;
     text-align: center;
@@ -125,7 +96,7 @@ section.about_us h4{
     color: #d4af37;
     margin-bottom: 22px;
 }
-section.about_us h3{
+section.about-us h3{
     font:44px "Open Sans";
     font-weight: 600;
     text-align: center;
@@ -134,7 +105,7 @@ section.about_us h3{
     margin-bottom: 57px;
 }
 
-section.about_us p{
+section.about-us p{
     font:18px "Open Sans";
     font-weight: 300;
     text-align: center;
@@ -142,7 +113,7 @@ section.about_us p{
     margin-bottom: 43px;
     line-height: 35px;
 }
-section.about_us a{
+section.about-us a{
     color: #021725;
     font:14px "Open Sans";
     font-weight: 300;
@@ -396,12 +367,12 @@ section.contact_us{
     margin: auto;
 }
 section.contact_us h4{
-font:13px "Open Sans";
-font-weight: 600;
-text-align: center;
-text-transform: uppercase;
-color: #d4af37;
-margin-bottom: 22px;
+    font:13px "Open Sans";
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    color: #d4af37;
+    margin-bottom: 22px;
 }
 section.contact_us h3{
     font:44px "Open Sans";
@@ -469,7 +440,7 @@ footer div.container p{
     color: #4d5c66;
     line-height: 16px;
 }
-div.blog_header_bg{
+div.blog_header-bg{
     background-image: url("../images/blogbg.jpg");
     margin-bottom: 78px;
     height: 399px;
@@ -578,7 +549,7 @@ div.blog__btn{
     max-width: 236px;
     margin: auto;
 }
-div.contact_us_header_bg{
+div.contact_us_header-bg{
     background-image: url("../images/contactusheaderbg.jpg");
     background-size: cover;
     height: 400px;
@@ -625,7 +596,7 @@ div.contact__us__container{
     display: flex;
 }
 div.contact__us__container__block1 p:before{
-   content: "";
+    content: "";
     width: 32px;
     height: 3px;
     display: block;
@@ -662,18 +633,18 @@ div.contact__us__container__block2 p:before{
     margin-bottom: 46px;
 }
 div.contact__us__btn{
-font:14px "Open Sans";
-font-weight: 300;
-text-transform: capitalize;
-color: #021725;
-line-height: 14px;
-border: solid 1px #021725;
-padding:22px 57px 21px ;
-max-width: 236px;
-margin: auto;
+    font:14px "Open Sans";
+    font-weight: 300;
+    text-transform: capitalize;
+    color: #021725;
+    line-height: 14px;
+    border: solid 1px #021725;
+    padding:22px 57px 21px ;
+    max-width: 236px;
+    margin: auto;
     margin-bottom: 87px;
 }
-div.project_header_bg{
+div.project_header-bg{
     background-image: url("../images/norabg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -765,6 +736,10 @@ button .owl-dot{
 button.owl-dot.active span{
     width: 25px;
     height: 25px;
+
+}
+.owl-dot.active:focus{
+    outline: none;
 }
 div.project__container__sidebar img:first-of-type{
     margin-top: 62px;
@@ -785,7 +760,7 @@ div.project__btn {
     margin: auto;
     margin-bottom:72px;
 }
-div.work_header_bg{
+div.work-header-bg{
     background-image: url("../images/workbg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -831,17 +806,17 @@ div.work__text{
     margin-bottom: 131px;
     text-align: center;
 }
-div.flex__container__img{
+div.container-img-flex{
     display: flex;
     flex-wrap: wrap;
     width: 100%;
     margin-bottom: 5px;
 }
-div.flex__container__img img{
+div.container-img-flex img{
     width: 25%;
     border: solid 1px white;
 }
-div.about_header_bg {
+div.about-header-bg {
     background-image: url("../images/aboutbg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -853,7 +828,7 @@ div.about_header_bg {
     position: relative;
 }
 
-div.about__text__container{
+div.about__container-text{
     max-width: 769px;
     margin: auto;
     font: 18px "Open Sans";
@@ -929,14 +904,14 @@ div.about__circle{
     right: 50%;
     z-index: 1;
 }
-div.about__circle__index{
+div.about__circle-index{
     width: 30px;
     height: 30px;
     border-radius: 50%;
     border: solid 2px white;
     position: absolute;
     padding: 5px;
-    bottom: 20%;
+    bottom: 30%;
     right: 50%;
     z-index: 1;
 }
@@ -958,7 +933,7 @@ div.project__circle{
     bottom: 4%;
     right: 50%;
 }
-div.container__header__text p{
+div.container__header-text p{
     font: 19px "Open Sans";
     font-weight: 600;
     color: white;
@@ -968,7 +943,7 @@ div.container__header__text p{
     position: absolute;
     top:32px;
 }
-div.container__header__text p.work__menu{
+div.container__header-text p.work__menu{
     font: 19px "Open Sans";
     font-weight: 600;
     color: white;
@@ -1086,3 +1061,141 @@ color: #363636;
 }
 
 
+nav {
+    overflow: hidden;
+    position: absolute;
+    z-index: 10;
+    transform: translateX(0);
+    height: 100vh;
+    max-width: 600px;
+    width: 100%;
+    right: 0;
+    top: 0;
+    transition: all 800ms cubic-bezier(.8, 0, .33, 1);
+    border-radius: 0% 0% 100% 50%;
+}
+
+nav.nav-open {
+    transform: translateX(0);
+    border-radius: 0% 0% 0% 0%;
+    background: rgba(255, 255, 255, 0.9);
+}
+
+nav .menu-btn {
+    position: absolute;
+    top: 30px;
+    right: 40px;
+    padding: 0;
+    width: 30px;
+    cursor: pointer;
+    z-index: 2;
+}
+
+nav .menu-btn .line {
+    padding: 0;
+    width: 30px;
+    background: #fff;
+    height: 2px;
+    margin: 5px 0;
+    transition: all 700ms cubic-bezier(.9, 0, .33, 1);
+}
+
+nav .menu-btn .line.line--1 {
+    width: 18px;
+    transform: rotate(0) translateY(0);
+}
+
+nav .menu-btn .line.line--1.line-cross {
+    width: 30px;
+    transform: rotate(45deg) translateY(10px);
+    background: rgba(0,0,0,0.6);
+}
+
+nav .menu-btn .line.line--2 {
+    width: 18px;
+    transform: translateX(0);
+}
+
+nav .menu-btn .line.line--2.line-fade-out {
+    width: 28px;
+    transform: translate(-30px);
+    opacity: 0;
+}
+
+nav .menu-btn .line.line--3 {
+    width: 18px;
+    transform: rotate(0) translateY(0);
+}
+
+nav .menu-btn .line.line--3.line-cross {
+    width: 30px;
+    transform: rotate(-45deg) translateY(-10px);
+    background: rgba(0,0,0,0.6);
+}
+
+nav .nav-links {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transform: translateX(100px);
+    opacity: 0;
+    transition: all 900ms cubic-bezier(.9, 0, .33, 1);
+}
+
+nav .nav-links.fade-in {
+    opacity: 1;
+    transform: translateX(0px);
+}
+
+nav .nav-links .link {
+    margin: 20px 0;
+    text-decoration: none;
+    font-family: sans-serif;
+    color: rgba(0,0,0,0.9);
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    transition: all 300ms cubic-bezier(.9, 0, .33, 1);
+}
+
+nav .nav-links .link:hover {
+    color: rgba(0, 0, 0, .5);
+}
+.inform{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 2rem;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-shadow: 0 0 20px rgba(0,0,0,0.6);
+}
+
+.support{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    padding: 10px;
+    display: flex;
+}
+a{
+    transition: all 400ms ease;
+}
+
+a:hover{
+    color: #222;
+}
+.ui-button{
+    background-image: none;
+    background-color: inherit;
+    display: none;
+}

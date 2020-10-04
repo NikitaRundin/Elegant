@@ -1,20 +1,37 @@
 @media only screen and (max-width: 767px) {
-    .header_bg{
+    .header-bg{
         background-image: url("../images/headerbgimgmobile.jpg");
     }
     *{
         flex-direction: column;
     }
-    div.container__header__flex{
+    a{
+        margin: 0;
+        font-size: inherit;
+    }
+    div.container-header-flex{
         flex-direction: row;
         margin: auto;
         background-color: #545a5b;
         opacity: 0.95;
+        padding: 15px 0 12px 15px;
 
     }
+    div.header-bg h1{
+       margin-top: 65px;
+    }
+    nav .menu-btn{
+        top: 0;
+        right: 0;
+        background-color: #283339;
+        padding: 20px;
+        width: 60px;
+
+    }
+
     div.container__logo{
-        padding: 14px  18px 10px;
-        margin: 0;
+        padding: 0;
+        margin: 0 15px;
 }
     div.container__burger{
         padding: 21px 24px 22px 28px ;
@@ -52,10 +69,10 @@
     section.contact_us div.container h3{
         margin-bottom: 15px;
     }
-  div.blog__container__flex{
-      padding: 0;
-      background-color: white;
-  }
+    div.blog__container__flex{
+    padding: 0;
+    background-color: white;
+    }
     div.about__flex__img{
         width: 100%;
     }
@@ -64,7 +81,7 @@
         width: 100%;
         margin-bottom: 15px;
     }
-    div.about__text__container{
+    div.about__container-text{
         padding: 0 15px 0 ;
         margin-bottom: 40px;
     }
@@ -82,10 +99,10 @@ footer{
 footer div.text p{
     font-size: 11px;
 }
-    div.about_header_bg{
+    div.about-header-bg{
         margin-bottom: 40px;
     }
-div.about__circle__index{
+div.about__circle-index{
     display: block;
 
 }
@@ -96,12 +113,12 @@ header.index h1{
 header.index span.text__italic{
     font-size: 65px;
 }
-section.about_us{
+section.about-us{
     margin-bottom: 40px;
     padding-top: 40px;
 }
 
-    section.about_us a{
+    section.about-us a{
         margin-bottom: 40px;
     }
     section.what_we_do h3{
@@ -117,7 +134,7 @@ section.about_us{
     div.blog__container__btn{
         margin: auto;
     }
-    div.blog_header_bg{
+    div.blog_header-bg{
         background-image:none;
         height: 20px;
         margin-bottom: 40px;
@@ -140,7 +157,7 @@ section.about_us{
         top: 0;
         z-index: 2;
     }
-    div.contact_us_header_bg{
+    div.contact_us_header-bg{
         background-image: none;
         height: 10px;
         margin-bottom: 70px;
@@ -178,7 +195,7 @@ header.contact_us{
         margin: auto;
     }
     div.project__btn{
-       display: none;
+        display: none;
     }
     div.project__container__text{
         margin: 0 auto;
@@ -196,7 +213,7 @@ header.contact_us{
     div.project__container__sidebar img:first-of-type {
         margin-top: 0;
     }
-    div.work_header_bg{
+    div.work-header-bg{
 margin-bottom: 40px;
     }
     div.work__title h2{
@@ -207,10 +224,10 @@ margin-bottom: 40px;
     div.work__text{
         margin-bottom: 40px;
     }
-    div.flex__container__img img{
+    div.container-img-flex img{
         width: 100%;
     }
-    div.container__header__text {
+    div.container__header-text {
         display: none;
     }
     section.contact_us div.text {
@@ -221,7 +238,7 @@ margin-bottom: 40px;
     section.blog_index div.container {
         margin-bottom: 20px;
     }
-    .header_bg {
+    .header-bg {
         margin-bottom: 20px;
     }
     section.who_we_are div.container_text {
@@ -230,7 +247,7 @@ margin-bottom: 40px;
     section.contact_us div.container {
         margin: 0;
     }
-    section.about_us h3 {
+    section.about-us h3 {
         margin-bottom: 25px;
     }
     section.who_we_are div.container h3 {
@@ -255,8 +272,9 @@ margin-bottom: 40px;
         position: fixed;
         width: 100%;
         top: 0;
-        z-index: 2;
+        z-index: 12;
     }
+
     div.contact__us__title{
         margin-bottom: 20px;
     }
@@ -269,7 +287,7 @@ margin-bottom: 40px;
         top: 0;
         z-index: 2;
     }
-    div.project_header_bg {
+    div.project_header-bg {
         margin-bottom: 20px;
 }
     div.project__container__text h1{
@@ -281,7 +299,7 @@ margin-bottom: 40px;
         top: 0;
         z-index: 2;
     }
-    div.work_header_bg{
+    div.work-header-bg{
         margin-bottom: 20px;
     }
     div.work__text{
@@ -293,17 +311,14 @@ margin-bottom: 40px;
     div.work__subtitle{
         margin-bottom: 18px;
     }
-    div.about_header_bg{
+    div.about-header-bg{
         margin-bottom: 20px;
     }
-    div.about__text__container{
+    div.about__container-text{
         margin-bottom: 20px;
     }
     div.about__text1 :before{
         margin-bottom: 20px;
-    }
-    div.owl-item{
-
     }
     .owl-carousel .owl-stage-outer {
         width: 100%;
@@ -312,7 +327,7 @@ margin-bottom: 40px;
     }
     .owl-dots{
         left: 0;
-         bottom :40px;
+        bottom :40px;
     }
     .dialog__container-white a:before{
         margin: 0 15px 0 15px;
@@ -323,7 +338,7 @@ margin-bottom: 40px;
         text-align: center;
     }
     .ui-dialog .ui-dialog-titlebar{
-       padding: 15px;
+        padding: 15px;
     }
     .ui-dialog .ui-dialog-content{
         padding: 15px;
@@ -346,4 +361,6 @@ margin-bottom: 40px;
     .ui-dialog .ui-dialog-title{
         width: 100%;
     }
+
 }
+
