@@ -1075,7 +1075,7 @@ nav {
 }
 
 nav.nav-open {
-    transform: translateX(0);
+    transform: translateX(-50px);
     border-radius: 0% 0% 0% 0%;
     background: rgba(255, 255, 255, 0.9);
 }
